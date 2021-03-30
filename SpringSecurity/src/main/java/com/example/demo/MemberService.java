@@ -62,15 +62,6 @@ public class MemberService implements UserDetailsService {
 				.username(username)
 				.password(m.getPwd())
 				.roles(m.getRole()).build();
-		/*
-		UserDetails details = null;
-		
-		UserBuilder builder = User.builder();
-		builder.username(username);
-		builder.password(m.getPwd());
-		builder.roles(m.getRole());
-		details= builder.build();
-		return details;*/
 		
 	}
 
